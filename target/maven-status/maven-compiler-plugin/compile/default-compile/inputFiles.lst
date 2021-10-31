@@ -2,5 +2,6 @@
 /home/cerlio.junior/Documents/SpringBootRabbitMQConsumer/src/main/java/com/javainuse/service/MessageListenerComponent.java
 /home/cerlio.junior/Documents/SpringBootRabbitMQConsumer/src/main/java/com/javainuse/model/Entidade.java
 /home/cerlio.junior/Documents/SpringBootRabbitMQConsumer/src/main/java/com/javainuse/service/ActiveMQRestController.java
+/home/cerlio.junior/Documents/SpringBootRabbitMQConsumer/src/main/java/com/javainuse/GcpConfiguration.java
 /home/cerlio.junior/Documents/SpringBootRabbitMQConsumer/src/main/java/com/javainuse/App.java
 /home/cerlio.junior/Documents/SpringBootRabbitMQConsumer/src/main/java/com/javainuse/AppConfiguration.java
