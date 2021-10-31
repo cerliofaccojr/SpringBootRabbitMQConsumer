@@ -13,7 +13,7 @@ public class MessageListenerComponent {
 
 	@JmsListener(destination = "minha.fila")
 	public void onReceiverQueue(Message<Entidade> str, @Headers Map<String, Object> headers) {
-		System.out.println( headers );
+		System.out.println( str.getPayload().getUser() );
 	}
 
 	@JmsListener(destination = "meu.topico", containerFactory = "jmsFactoryTopic")
