@@ -31,7 +31,7 @@ public class ActiveMQRestController {
 	}
 	
 	@GetMapping("/loaderio-b00d107bf5d22f161ea99f9228f3016b")
-	public String testeString() {
+	public String testeString2() {
 		return "loaderio-b00d107bf5d22f161ea99f9228f3016b";
 	}
 	
