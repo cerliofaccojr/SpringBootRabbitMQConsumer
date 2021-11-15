@@ -25,10 +25,12 @@ public class ActiveMQRestController {
 		messageProducerComponent.sendToTopic();
 	}
 
-	@GetMapping("/gcp")
-	public void sendGCP() {
-		messagingGateway.sendToPubsub("Ma oi Ma oi") ;
+	@GetMapping("/teste")
+	public String testeString() {
+		return "Ma oi Ma oi";
 	}
+	
+	
 
 
 
