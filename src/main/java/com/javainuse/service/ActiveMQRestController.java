@@ -30,6 +30,11 @@ public class ActiveMQRestController {
 		return "Ma oi Ma oi";
 	}
 	
+	@GetMapping("/loaderio-b00d107bf5d22f161ea99f9228f3016b")
+	public String testeString() {
+		return "loaderio-b00d107bf5d22f161ea99f9228f3016b";
+	}
+	
 	
 
 
